@@ -70,3 +70,6 @@
 
 ###### Copy files to a container
 > docker cp bin/. [container name]:home/bin
+
+###### Starts the container and enabled the terminal from the container
+> docker run -it [image name]
