@@ -69,4 +69,4 @@
 > docker container stop [container name]
 
 ###### Copy files to a container
-> docker cp bin/. dotnet31:home/bin
+> docker cp bin/. [container name]:home/bin
