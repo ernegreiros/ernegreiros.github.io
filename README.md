@@ -73,3 +73,16 @@
 
 ###### Starts the container and enabled the terminal from the container
 > docker run -it [image name]
+ 
+###### Define environment variables inside the container in docker run command
+> docker run -e "[VARIABLE_NAME]=[VARIABLE_VALUE]" [IMAGE_NAME]
+
+###### Run a command inside another 
+> docker stop $(docker ps -q)
+
+###### Define specific port to run 
+> docker run -p 12345:80 [IMAGE_NAME]
+
+###### Map random port  
+> docker run -P [IMAGE_NAME]
+
